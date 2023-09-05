@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Caprasimo&family=Noto+Sans+KR:wght@100&family=Poppins&family=Roboto:wght@300&family=Ysabeau+Infant:ital,wght@0,100;0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(0, 255, 76);
+    font-family: 'Agdasima', sans-serif;
+    padding: 12px 48px;
+    display: flex;
+
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+
+}
+
+ul {
+
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.logo
+{
+    margin: 0 24px;
+    font-size: x-large;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+
+ul li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+
+}
+
+
+ul li:hover {
+  color: white;
+
+}
+
+table,td,tr{
+    border: 2px solid rgb(40, 35, 35);
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 48vw;
+    margin: 23px auto;
+
+}
+
+h1,h2,h3{
+    margin: 23px 0;
+}
+
+.btn{
+    padding:8px 13px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin: 25px 0;
+    cursor: pointer;
+    font-weight: 900;
+    border: 2px solid gray;
+
+}
+
+.btnsn{
+
+    padding:8px 13px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    
+    cursor: pointer;
+    font-weight: 900;
+    border: 2px solid gray;
+}
+
+img{
+    cursor: pointer;
+}
+
+#alert{
+    display: none;
+}

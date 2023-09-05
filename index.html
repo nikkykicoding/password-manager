@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass-x your password manager</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PASS-X</div>
+        <ul>
+            <li>home</li>
+            <li>About</li>
+            <li>Contact</li>
+
+
+
+        </ul>
+
+
+
+    </nav>
+
+    <div class="container">
+
+        <h1>PASSWORD MANAGER</h1>
+        <H2>Your Password</H2><span id="alert">{Copied!}</span>
+
+        <table>
+            <tr>
+                <th>WEBSITE</th>
+                <th>USERNAME</th>
+                <TH>PASSWORD</TH>
+                <TH>DELETE</TH>
+
+            </tr>
+           
+            <!-- <tr>
+                <td>Yahoo</td>
+                <td>nikhilbhor201@gmail.com</td>
+
+
+            </tr>
+
+            <tr>
+                <td>Nikhil</td>
+                <td>nikhilbhor201@gmail.com</td>
+
+
+            </tr> -->
+
+
+
+        </table>
+
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+             <!-- Text input for website -->
+             <label for="website">Website:</label>
+             <input type="text" id="website" name="website" required>
+             <br><br>
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+            <!-- Submit button -->
+            <button class="btn" type="submit" value="Submit"> Submit</button>
+        </form>
+
+
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
